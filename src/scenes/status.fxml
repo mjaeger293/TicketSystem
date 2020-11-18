@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="153.0" prefWidth="309.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="25.0" layoutY="74.0" mnemonicParsing="false" text="Speichern" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="105.0" />
+      <Button layoutX="124.0" layoutY="70.0" mnemonicParsing="false" text="Abbrechen" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="105.0" />
+      <ComboBox fx:id="ticketChooser" layoutX="25.0" layoutY="22.0" prefWidth="150.0" promptText="Ticket" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0" />
+      <ComboBox fx:id="stateChooser" layoutX="142.0" layoutY="65.0" prefWidth="150.0" promptText="Status" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="65.0" />
+   </children>
+</AnchorPane>
