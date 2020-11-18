@@ -8,6 +8,6 @@
    <children>
       <Button layoutX="25.0" layoutY="74.0" mnemonicParsing="false" text="Speichern" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="65.0" />
       <Button layoutX="124.0" layoutY="70.0" mnemonicParsing="false" text="Abbrechen" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="65.0" />
-      <TextField layoutX="20.0" layoutY="34.0" promptText="Priorität" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0" />
+      <TextField layoutX="20.0" layoutY="34.0" promptText="Priorität" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0" />
    </children>
 </AnchorPane>
